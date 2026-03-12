@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import DGoldChatbot from './components/DGoldChatbot';
 import LandingPage from './pages/LandingPage';
 import FeaturesPage from './pages/FeaturesPage';
 import PersonasPage from './pages/PersonasPage';
@@ -28,6 +29,7 @@ function App() {
           <Route path="/case-study" element={<CaseStudyPage />} />
           <Route path="/request-demo" element={<DemoPage />} />
         </Routes>
+        <DGoldChatbot />
         <Footer />
       </Router>
     </ParallaxProvider>

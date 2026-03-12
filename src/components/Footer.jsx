@@ -85,12 +85,7 @@ export default function Footer() {
         </div>
 
         <div className="footer__bottom">
-          <span className="footer__copyright">© 2026 Amurta. All rights reserved.</span>
-          <div className="footer__legal">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
-            <a href="#">MIT License</a>
-          </div>
+          <span className="footer__copyright">Copyright © 2026 dgold.ai - All Rights Reserved.</span>
         </div>
       </div>
     </footer>

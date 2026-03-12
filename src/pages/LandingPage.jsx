@@ -17,9 +17,6 @@ export default function LandingPage() {
         <Parallax speed={10} className="hero__orb hero__orb--2" />
         <Parallax speed={30} className="hero__orb hero__orb--3" />
         <div className="hero__content">
-          <div className="hero__badge">
-            <SparklesIcon size={14} /> AI-First Master Data Management
-          </div>
           <h1 className="hero__title">
             <span className="highlight">Trusted Master Data</span><br />in 90 Days
           </h1>
@@ -188,7 +185,7 @@ export default function LandingPage() {
             <div className="section__header">
               <div className="section__badge">✦ <span>Deployment</span></div>
               <h2 className="section__title">Your Infrastructure. Your Rules.</h2>
-              <p className="section__subtitle">Deploy dGold wherever it makes sense for your business — on-premises, hybrid, or fully managed SaaS.</p>
+              <p className="section__subtitle">Deploy dGold wherever it makes sense for your business - on-premises, hybrid, or fully managed SaaS.</p>
             </div>
           </ScrollReveal>
 
@@ -196,7 +193,7 @@ export default function LandingPage() {
             {[
               { icon: <DatabaseIcon size={32} />, title: 'On-Premises', desc: 'Full control. Install on your own servers, behind your firewall. Air-gapped environments supported.', tags: ['Full Data Control', 'BYOL Supported', 'Air-Gap Ready'] },
               { icon: <LayersIcon size={32} />, title: 'Hybrid Cloud', desc: 'Best of both worlds. Keep sensitive data on-prem while leveraging cloud compute for AI workloads.', tags: ['Flexible Architecture', 'Multi-Cloud', 'Edge Compatible'] },
-              { icon: <RocketIcon size={32} />, title: 'Managed SaaS', desc: 'Zero ops burden. We handle the infrastructure — you focus on your data. SOC 2 Type II certified.', tags: ['Zero Maintenance', 'Auto-Scaling', 'SOC 2 Certified'] },
+              { icon: <RocketIcon size={32} />, title: 'Managed SaaS', desc: 'Zero ops burden. We handle the infrastructure - you focus on your data. SOC 2 Type II certified.', tags: ['Zero Maintenance', 'Auto-Scaling', 'SOC 2 Certified'] },
             ].map((dep, i) => (
               <ScrollReveal delay={i * 150} key={i}>
                 <div className="deploy-card">
