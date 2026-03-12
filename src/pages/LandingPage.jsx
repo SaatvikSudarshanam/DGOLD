@@ -21,7 +21,7 @@ export default function LandingPage() {
             <span className="highlight">Trusted Master Data</span><br />in 90 Days
           </h1>
           <p className="hero__subtitle">
-            Onboard, Match &amp; Govern — One platform to close the gap and deliver trusted masters. Easier, Faster, SimplifAIed.
+            Onboard, Match &amp; Govern - One platform to close the gap and deliver trusted masters. Easier, Faster, SimplifAIed.
           </p>
           <div className="hero__cta">
             <Link to="/request-demo" className="btn btn--primary btn--lg">Request a Demo →</Link>
@@ -65,8 +65,8 @@ export default function LandingPage() {
         <div className="container">
           <ScrollReveal>
             <div className="section__header">
-              <div className="section__badge"><SparklesIcon size={12} /> <span>The Platform</span></div>
-              <h2 className="section__title">dGold — AI-First MDM Platform</h2>
+              <div className="section__badge"> <span>The Platform</span></div>
+              <h2 className="section__title">dGold - AI First MDM Platform</h2>
               <p className="section__subtitle">One unified platform that replaces fragmented tools. Master, govern, and distribute your data with built-in intelligence — no consultants, no custom code.</p>
             </div>
           </ScrollReveal>
@@ -116,7 +116,7 @@ export default function LandingPage() {
         <div className="container">
           <ScrollReveal>
             <div className="section__header">
-              <div className="section__badge">✦ <span>How It Works</span></div>
+              <div className="section__badge"> <span>How It Works</span></div>
               <h2 className="section__title">From Messy Data to Golden Records in 4 Steps</h2>
               <p className="section__subtitle">Our AI-powered pipeline takes your raw, fragmented data and transforms it into a single source of truth — automatically.</p>
             </div>
@@ -149,9 +149,9 @@ export default function LandingPage() {
         <div className="container">
           <ScrollReveal>
             <div className="section__header">
-              <div className="section__badge">✦ <span>Capabilities</span></div>
+              <div className="section__badge"> <span>Capabilities</span></div>
               <h2 className="section__title">Everything You Need. Nothing You Don't.</h2>
-              <p className="section__subtitle">Built for enterprises that want results — not endless configuration cycles and consulting bills.</p>
+              <p className="section__subtitle">Built for enterprises that want results - not endless configuration cycles and consulting bills.</p>
             </div>
           </ScrollReveal>
 
@@ -159,12 +159,12 @@ export default function LandingPage() {
             {[
               { icon: <GearIcon size={22} />, title: 'No-Code Configuration', desc: 'Drag-and-drop data models, validation rules, and workflow templates. Zero scripting required.', color: 'gold' },
               { icon: <LinkIcon size={22} />, title: 'Smart Match & Merge', desc: 'AI-powered fuzzy matching with configurable survivorship rules. 91.67% purity out of the box.', color: 'blue' },
-              { icon: <LayersIcon size={22} />, title: 'Multi-Domain Support', desc: 'Customer, product, vendor, material, employee — manage any domain from a single workspace.', color: 'purple' },
+              { icon: <LayersIcon size={22} />, title: 'Multi-Domain Support', desc: 'Customer, product, vendor, material, employee - manage any domain from a single workspace.', color: 'purple' },
               { icon: <SearchIcon size={22} />, title: 'Data Discovery', desc: 'Automatically profile, catalog, and lineage-trace data assets across your entire estate.', color: 'green' },
               { icon: <LockIcon size={22} />, title: 'Built-In Compliance', desc: 'GDPR, CCPA, HIPAA ready. PII classification, masking engine, and audit trail included.', color: 'red' },
-              { icon: <ChartIcon size={22} />, title: 'Real-Time Dashboards', desc: 'Quality scores, stewardship metrics, and governance KPIs — all live, all exportable.', color: 'cyan' },
+              { icon: <ChartIcon size={22} />, title: 'Real-Time Dashboards', desc: 'Quality scores, stewardship metrics, and governance KPIs - all live, all exportable.', color: 'cyan' },
               { icon: <UsersIcon size={22} />, title: 'Stewardship Workbench', desc: 'Task queues, exception handling, and approval workflows for your data stewards.', color: 'gold' },
-              { icon: <PlugIcon size={22} />, title: '50+ Connectors', desc: 'SAP, Salesforce, Oracle, Dynamics, Snowflake, AWS, Azure, GCP — and growing weekly.', color: 'blue' },
+              { icon: <PlugIcon size={22} />, title: '50+ Connectors', desc: 'SAP, Salesforce, Oracle, Dynamics, Snowflake, AWS, Azure, GCP - and growing weekly.', color: 'blue' },
             ].map((cap, i) => (
               <ScrollReveal delay={i * 80} key={i}>
                 <div className={`cap-card cap-card--${cap.color}`}>
@@ -183,7 +183,7 @@ export default function LandingPage() {
         <div className="container">
           <ScrollReveal>
             <div className="section__header">
-              <div className="section__badge">✦ <span>Deployment</span></div>
+              <div className="section__badge"> <span>Deployment</span></div>
               <h2 className="section__title">Your Infrastructure. Your Rules.</h2>
               <p className="section__subtitle">Deploy dGold wherever it makes sense for your business - on-premises, hybrid, or fully managed SaaS.</p>
             </div>
@@ -215,7 +215,7 @@ export default function LandingPage() {
         <div className="container">
           <ScrollReveal>
             <div className="section__header">
-              <div className="section__badge">✦ <span>Business Impact</span></div>
+              <div className="section__badge"> <span>Business Impact</span></div>
               <h2 className="section__title">Measurable ROI from Day One</h2>
               <p className="section__subtitle">Every dollar invested in dGold compounds. Here's what our customers see within the first year.</p>
             </div>
@@ -247,7 +247,7 @@ export default function LandingPage() {
         <div className="container">
           <ScrollReveal>
             <div className="section__header">
-              <div className="section__badge">✦ <span>Integrations</span></div>
+              <div className="section__badge"> <span>Integrations</span></div>
               <h2 className="section__title">Connects to Everything You Already Use</h2>
               <p className="section__subtitle">Plug-and-play connectors to 50+ enterprise systems. No custom ETL. No middleware.</p>
             </div>

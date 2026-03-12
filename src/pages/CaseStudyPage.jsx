@@ -109,7 +109,7 @@ export default function CaseStudyPage() {
         </div>
         <div className="container">
           <div className="cs-hero__content">
-            <div className="section__badge"><CheckCircleIcon size={12} /> <span>Proven Results</span></div>
+            <div className="section__badge"> <span>Proven Results</span></div>
             <h1 className="section__title" style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)' }}>
               Real Companies. Real Data.<br />Real Results.
             </h1>

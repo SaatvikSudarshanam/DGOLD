@@ -12,9 +12,9 @@ export default function FeaturesPage() {
         <div className="container">
           <ScrollReveal>
             <div className="section__header">
-              <div className="section__badge">✦ <span>Core Pillars</span></div>
+              <div className="section__badge"> <span>Core Pillars</span></div>
               <h2 className="section__title">Easier · Faster · SimplifAIed</h2>
-              <p className="section__subtitle">We took everything slow, heavy, and over-engineered about MDM — and built the opposite: faster, smarter, and radically simpler by design.</p>
+              <p className="section__subtitle">MDM had become slow and complicated. We stripped away the clutter and built something faster, smarter, and simple by design.</p>
             </div>
           </ScrollReveal>
 

@@ -38,7 +38,7 @@ export default function PricingPage() {
         <div className="container">
           <ScrollReveal>
             <div className="section__header">
-              <div className="section__badge">✦ <span>Build Your Price</span></div>
+              <div className="section__badge"> <span>Build Your Price</span></div>
               <h2 className="section__title">Price &amp; ROI Calculator</h2>
               <p className="section__subtitle">Straightforward. Predictable. Transparent. User-based licensing only — no volume, record, or transaction fees.</p>
             </div>

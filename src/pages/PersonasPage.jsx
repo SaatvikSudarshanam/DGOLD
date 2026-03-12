@@ -13,7 +13,7 @@ export default function PersonasPage() {
         <div className="container">
           <ScrollReveal>
             <div className="section__header">
-              <div className="section__badge">✦ <span>Built For Everyone</span></div>
+              <div className="section__badge"> <span>Built For Everyone</span></div>
               <h2 className="section__title">MDM Across Your Organization</h2>
               <p className="section__subtitle">Whether you're in IT engineering or finance, dGold speaks your language and delivers results that matter to you.</p>
             </div>
@@ -35,7 +35,7 @@ export default function PersonasPage() {
               <div className="personas__content">
                 <div className="personas__info">
                   <h3>Platform Productivity for IT Teams</h3>
-                  <p>A complete toolkit so your engineers control it — without a consulting army. Configure, model, and govern data with intuitive tools designed for technical depth.</p>
+                  <p>Built for engineers, not consulting armies. Configure, model, and govern your data with tools that are powerful yet intuitive.</p>
                   <div className="personas__features">
                     {[
                       { icon: <RulerIcon size={18} />, title: 'Data Modeler', desc: 'Visual model builder for entities, relationships & hierarchies' },

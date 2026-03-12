@@ -44,7 +44,7 @@ export default function ResourcesPage() {
         <div className="container">
           <ScrollReveal>
             <div className="section__header">
-              <div className="section__badge">✦ <span>Success Stories</span></div>
+              <div className="section__badge"> <span>Success Stories</span></div>
               <h2 className="section__title">Trusted by Leaders. Proven in Production.</h2>
               <p className="section__subtitle">Different industries. Same result — trusted data, faster.</p>
             </div>

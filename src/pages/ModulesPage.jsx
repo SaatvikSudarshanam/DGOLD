@@ -68,7 +68,7 @@ export default function ModulesPage() {
         <div className="container">
           <ScrollReveal>
             <div className="section__header">
-              <div className="section__badge">✦ <span>Platform Capabilities</span></div>
+              <div className="section__badge"> <span>Platform Capabilities</span></div>
               <h2 className="section__title">Four Modules, One Platform</h2>
               <p className="section__subtitle">MDM, Data Quality, Compliance, and Marketplace — all in one clean workspace, not four products pretending to be one.</p>
             </div>

@@ -102,7 +102,7 @@ export default function ComparePage() {
         <div className="container">
           <ScrollReveal>
             <div className="section__header">
-              <div className="section__badge">✦ <span>Head-to-Head</span></div>
+              <div className="section__badge"> <span>Head-to-Head</span></div>
               <h2 className="section__title">See How dGold Stacks Up</h2>
               <p className="section__subtitle">Objective, transparent, side-by-side evaluation. Choose the platform that delivers fastest time-to-value with the lowest total cost of ownership.</p>
             </div>
